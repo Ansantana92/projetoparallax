@@ -1,0 +1,66 @@
+body{
+	font-size: 16px;
+	font-weight: 400;
+	height: 100;
+}
+.pimg1{
+	background:url(../img/seascape.jpg);
+	min-height: 100%;
+}
+.pimg2{
+	background:url(../img/sky.jpg);
+	min-height: 400px;
+}
+.pimg1,.pimg2{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	opacity: 0.7;
+}
+
+.ptext{
+	position: absolute;
+	top:50%;
+	width: 100%;
+	text-align: center;
+	color:#000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+
+}
+div{
+	display: block;
+}
+.ptext .border{
+	background-color: #111;
+	color:#fff;
+	padding:20px;
+}
+section{
+	background:#f4f4f4;
+	color:#666;
+	display: block;
+	text-align: center;
+	line-height: 1.8em;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 50px 80px;
+}
+.bordertrans{
+	opacity:0.8;
+	color: white;
+}
+
+section h2{
+	font-size: 1.5em;
+    font-weight: bold;
+}
+
+section p {
+	margin-top: 1em;
+	margin-top: 1em;
+}
